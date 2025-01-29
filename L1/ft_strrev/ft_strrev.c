@@ -16,11 +16,3 @@ char    *ft_strrev(char *str)
     }
     return str;
 }
-
-#include <stdio.h>
-int main()
-{
-    char str[] = "Hello, World!";
-    printf("Original: %s\n", str);
-    printf("Reversed: %s\n", ft_strrev(str));
-}
